@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_404e8d8f9a947d59db6ca8b9d58f8dda {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_404e8d8f9a947d59db6ca8b9d58f8dda" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_404e8d8f9a947d59db6ca8b9d58f8dda = L.map(
+                "map_404e8d8f9a947d59db6ca8b9d58f8dda",
+                {
+                    center: [18.456792, -69.951164],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7a9c584b5e1f6238c2217791b68af85a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7a9c584b5e1f6238c2217791b68af85a.addTo(map_404e8d8f9a947d59db6ca8b9d58f8dda);
+        
+    
+            var marker_fbd82b9048a55ee4767043b0cedc3329 = L.marker(
+                [18.456792, -69.951164],
+                {
+}
+            ).addTo(map_404e8d8f9a947d59db6ca8b9d58f8dda);
+        
+    
+        var popup_dc60dfe574cbee3faaba62b81d879acc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e3374c900a08d6a0ce6fa073f3e1ceb = $(`<div id="html_4e3374c900a08d6a0ce6fa073f3e1ceb" style="width: 100.0%; height: 100.0%;">region: Central America & Caribbean, groups_most_active:, [{'Group': 'Rebel Armed Forces of Guatemala (FAR)', 'Event Count': 2}, {'Group': 'Tony El Pelou Band', 'Event Count': 2}, {'Group': 'Dominican Popular Movement (MPD)', 'Event Count': 1}, {'Group': 'MANO-D', 'Event Count': 1}, {'Group': 'Sandinista National Liberation Front (FSLN)', 'Event Count': 1}]</div>`)[0];
+                popup_dc60dfe574cbee3faaba62b81d879acc.setContent(html_4e3374c900a08d6a0ce6fa073f3e1ceb);
+            
+        
+
+        marker_fbd82b9048a55ee4767043b0cedc3329.bindPopup(popup_dc60dfe574cbee3faaba62b81d879acc)
+        ;
+
+        
+    
+    
+            var marker_d620564a897ef1a3ee6773c7b9618018 = L.marker(
+                [19.371887, -99.086624],
+                {
+}
+            ).addTo(map_404e8d8f9a947d59db6ca8b9d58f8dda);
+        
+    
+        var popup_ba0b18a36334b5bdff9b319d5327c586 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9969122d0fc0f77ddd0ceeabb0d9996a = $(`<div id="html_9969122d0fc0f77ddd0ceeabb0d9996a" style="width: 100.0%; height: 100.0%;">region: North America, groups_most_active:, [{'Group': 'Left-Wing Militants', 'Event Count': 144}, {'Group': 'Black Nationalists', 'Event Count': 78}, {'Group': 'Student Radicals', 'Event Count': 65}, {'Group': 'White extremists', 'Event Count': 34}, {'Group': 'Weather Underground, Weathermen', 'Event Count': 27}]</div>`)[0];
+                popup_ba0b18a36334b5bdff9b319d5327c586.setContent(html_9969122d0fc0f77ddd0ceeabb0d9996a);
+            
+        
+
+        marker_d620564a897ef1a3ee6773c7b9618018.bindPopup(popup_ba0b18a36334b5bdff9b319d5327c586)
+        ;
+
+        
+    
+    
+            var marker_b1a040a543208695cba35ac7d9a2ec67 = L.marker(
+                [15.478598, 120.599741],
+                {
+}
+            ).addTo(map_404e8d8f9a947d59db6ca8b9d58f8dda);
+        
+    
+        var popup_6ae367026df9b9cc12557214b028de3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7e605b9beef62c69220158d3e17cb96 = $(`<div id="html_c7e605b9beef62c69220158d3e17cb96" style="width: 100.0%; height: 100.0%;">region: Southeast Asia, groups_most_active:, [{'Group': "New People's Army (NPA)", 'Event Count': 3}, {'Group': 'Kabataang Makabayan (KM)', 'Event Count': 1}, {'Group': 'Students', 'Event Count': 1}]</div>`)[0];
+                popup_6ae367026df9b9cc12557214b028de3a.setContent(html_c7e605b9beef62c69220158d3e17cb96);
+            
+        
+
+        marker_b1a040a543208695cba35ac7d9a2ec67.bindPopup(popup_6ae367026df9b9cc12557214b028de3a)
+        ;
+
+        
+    
+    
+            var marker_9907e9727069bb8587fd7000c5046356 = L.marker(
+                [37.99749, 23.762728],
+                {
+}
+            ).addTo(map_404e8d8f9a947d59db6ca8b9d58f8dda);
+        
+    
+        var popup_900259173cc8f0db1615bffc81ffc92c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbbb942b7604d0ebd45473a507f267e4 = $(`<div id="html_cbbb942b7604d0ebd45473a507f267e4" style="width: 100.0%; height: 100.0%;">region: Western Europe, groups_most_active:, [{'Group': 'Irish Republican Army (IRA)', 'Event Count': 22}, {'Group': 'Catalan Liberation Front (FAC)', 'Event Count': 9}, {'Group': 'Popular Front for the Liberation of Palestine (PFLP)', 'Event Count': 7}, {'Group': 'GAC', 'Event Count': 4}, {'Group': 'Irish Republican Extremists', 'Event Count': 4}]</div>`)[0];
+                popup_900259173cc8f0db1615bffc81ffc92c.setContent(html_cbbb942b7604d0ebd45473a507f267e4);
+            
+        
+
+        marker_9907e9727069bb8587fd7000c5046356.bindPopup(popup_900259173cc8f0db1615bffc81ffc92c)
+        ;
+
+        
+    
+    
+            var marker_283fdcf691df264fc9389d1fab0ef423 = L.marker(
+                [33.580412, 130.396361],
+                {
+}
+            ).addTo(map_404e8d8f9a947d59db6ca8b9d58f8dda);
+        
+    
+        var popup_37151af0ce7d9e5d8dd6b3828a933f3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c88f55b1500409e9fc2de6046dddf21 = $(`<div id="html_1c88f55b1500409e9fc2de6046dddf21" style="width: 100.0%; height: 100.0%;">region: East Asia, groups_most_active:, [{'Group': 'Japanese Red Army (JRA)', 'Event Count': 1}]</div>`)[0];
+                popup_37151af0ce7d9e5d8dd6b3828a933f3c.setContent(html_1c88f55b1500409e9fc2de6046dddf21);
+            
+        
+
+        marker_283fdcf691df264fc9389d1fab0ef423.bindPopup(popup_37151af0ce7d9e5d8dd6b3828a933f3c)
+        ;
+
+        
+    
+    
+            var marker_8364e06861cd85e9690b9cec6128198d = L.marker(
+                [-34.891151, -56.187214],
+                {
+}
+            ).addTo(map_404e8d8f9a947d59db6ca8b9d58f8dda);
+        
+    
+        var popup_11c27dc763ed44520be82db47c88a6e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec9f509c7b220bb6a0dd566637b59765 = $(`<div id="html_ec9f509c7b220bb6a0dd566637b59765" style="width: 100.0%; height: 100.0%;">region: South America, groups_most_active:, [{'Group': 'Tupamaros (Uruguay)', 'Event Count': 37}, {'Group': 'Peronist Armed Forces (FAP)', 'Event Count': 6}, {'Group': 'Armed Forces of National Liberation- Venezuela (FALN)', 'Event Count': 4}, {'Group': 'Ejercito Revolucionaria del Pueblo (ERP) (Argentina)', 'Event Count': 4}, {'Group': 'Popular Revolutionary Vanguard (VPR)', 'Event Count': 4}]</div>`)[0];
+                popup_11c27dc763ed44520be82db47c88a6e3.setContent(html_ec9f509c7b220bb6a0dd566637b59765);
+            
+        
+
+        marker_8364e06861cd85e9690b9cec6128198d.bindPopup(popup_11c27dc763ed44520be82db47c88a6e3)
+        ;
+
+        
+    
+    
+            var marker_19638500afdc5ddd99d8f6ff8c5f5a3f = L.marker(
+                [52.50153, 13.401851],
+                {
+}
+            ).addTo(map_404e8d8f9a947d59db6ca8b9d58f8dda);
+        
+    
+        var popup_a0a9bfccec38616152d8ca804c032ab7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f06f7383445381d48c82491acf1a5539 = $(`<div id="html_f06f7383445381d48c82491acf1a5539" style="width: 100.0%; height: 100.0%;">region: Eastern Europe, groups_most_active:, [{'Group': 'Extraparliamentary Opposition (APO)', 'Event Count': 6}, {'Group': 'Black Cells', 'Event Count': 1}, {'Group': 'Commune 1', 'Event Count': 1}, {'Group': 'SFT', 'Event Count': 1}]</div>`)[0];
+                popup_a0a9bfccec38616152d8ca804c032ab7.setContent(html_f06f7383445381d48c82491acf1a5539);
+            
+        
+
+        marker_19638500afdc5ddd99d8f6ff8c5f5a3f.bindPopup(popup_a0a9bfccec38616152d8ca804c032ab7)
+        ;
+
+        
+    
+    
+            var marker_0d07d6101f25cfcfa22beec6a57badea = L.marker(
+                [48.6937223, 6.1834097],
+                {
+}
+            ).addTo(map_404e8d8f9a947d59db6ca8b9d58f8dda);
+        
+    
+        var popup_b025346ac7bb035d8a2714ea82c242ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20a1e5ccf9448962a104d526b5af3a62 = $(`<div id="html_20a1e5ccf9448962a104d526b5af3a62" style="width: 100.0%; height: 100.0%;">region: Sub-Saharan Africa, groups_most_active:, [{'Group': 'Eritrean Liberation Front', 'Event Count': 4}, {'Group': 'Catalan Liberation Front (FAC)', 'Event Count': 1}, {'Group': 'Ejercito de Liberacion Nacional (Bolivia)', 'Event Count': 1}, {'Group': 'Montoneros (Argentina)', 'Event Count': 1}, {'Group': 'Popular Front for the Liberation of Palestine (PFLP)', 'Event Count': 1}]</div>`)[0];
+                popup_b025346ac7bb035d8a2714ea82c242ba.setContent(html_20a1e5ccf9448962a104d526b5af3a62);
+            
+        
+
+        marker_0d07d6101f25cfcfa22beec6a57badea.bindPopup(popup_b025346ac7bb035d8a2714ea82c242ba)
+        ;
+
+        
+    
+    
+            var marker_444fbbb475ffc34531167f1dabb1848b = L.marker(
+                [31.530243, 35.094162],
+                {
+}
+            ).addTo(map_404e8d8f9a947d59db6ca8b9d58f8dda);
+        
+    
+        var popup_dc2df8a61e56cfc03cbe5dafddc7bec6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7fde13ee7bfc23635db94aeb7e8cd1a = $(`<div id="html_b7fde13ee7bfc23635db94aeb7e8cd1a" style="width: 100.0%; height: 100.0%;">region: Middle East & North Africa, groups_most_active:, [{'Group': "Turkish People's Liberation Army", 'Event Count': 28}, {'Group': 'Popular Front for the Liberation of Palestine (PFLP)', 'Event Count': 7}, {'Group': 'RYF', 'Event Count': 3}, {'Group': 'Palestinians', 'Event Count': 2}, {'Group': "Turkish People's Liberation Front (TPLF)(THKP-C)", 'Event Count': 1}]</div>`)[0];
+                popup_dc2df8a61e56cfc03cbe5dafddc7bec6.setContent(html_b7fde13ee7bfc23635db94aeb7e8cd1a);
+            
+        
+
+        marker_444fbbb475ffc34531167f1dabb1848b.bindPopup(popup_dc2df8a61e56cfc03cbe5dafddc7bec6)
+        ;
+
+        
+    
+    
+            var marker_540f2e20c07eeae80b1251ef94e83608 = L.marker(
+                [-37.813187, 144.96298],
+                {
+}
+            ).addTo(map_404e8d8f9a947d59db6ca8b9d58f8dda);
+        
+    
+        var popup_31d89bfff897f70dcbec8af65e4b9736 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7f6537778112a9b76299064cfff1b3f = $(`<div id="html_a7f6537778112a9b76299064cfff1b3f" style="width: 100.0%; height: 100.0%;">region: Australasia & Oceania, groups_most_active:, [{'Group': 'Croatian Nationalists', 'Event Count': 1}]</div>`)[0];
+                popup_31d89bfff897f70dcbec8af65e4b9736.setContent(html_a7f6537778112a9b76299064cfff1b3f);
+            
+        
+
+        marker_540f2e20c07eeae80b1251ef94e83608.bindPopup(popup_31d89bfff897f70dcbec8af65e4b9736)
+        ;
+
+        
+    
+    
+            var marker_dfcb736ee362cb7a1ed8bd004cae01ed = L.marker(
+                [24.891115, 67.143311],
+                {
+}
+            ).addTo(map_404e8d8f9a947d59db6ca8b9d58f8dda);
+        
+    
+        var popup_1c7b41242ef30df57258d97dad21332a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7d8519ef12beae97a7eb41b87b4ad05 = $(`<div id="html_a7d8519ef12beae97a7eb41b87b4ad05" style="width: 100.0%; height: 100.0%;">region: South Asia, groups_most_active:, []</div>`)[0];
+                popup_1c7b41242ef30df57258d97dad21332a.setContent(html_a7d8519ef12beae97a7eb41b87b4ad05);
+            
+        
+
+        marker_dfcb736ee362cb7a1ed8bd004cae01ed.bindPopup(popup_1c7b41242ef30df57258d97dad21332a)
+        ;
+
+        
+    
+</script>
+</html>
